@@ -6,7 +6,7 @@
 
 ---
 
-graphic designer. prompt engineer. communicator. generalist with an unreasonable amount of side projects.
+graphic designer. prompt engineer ( 4 years). communicator. generalist with an unreasonable amount of side projects.
 
 ---
 
@@ -15,7 +15,6 @@ graphic designer. prompt engineer. communicator. generalist with an unreasonable
 | | |
 |---|---|
 | [**CodeMentor AI**](https://github.com/harshitSingh1/CodeMentor) | Chrome extension that guides you through DSA problems without spoiling the answer |
-| **Statistical Reasoning** | Tools and notebooks for making sense of data without guessing |
 | **Focus Studying Blocks** | A structured time-blocking system for deep study sessions |
 
 ---
