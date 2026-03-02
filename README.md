@@ -15,7 +15,7 @@ graphic designer. prompt engineer ( 4 years). communicator. generalist with an u
 | | |
 |---|---|
 | [**CodeMentor AI**](https://github.com/harshitSingh1/CodeMentor) | Chrome extension that guides you through DSA problems without spoiling the answer |
-| **Focus Studying Blocks** | A structured time-blocking system for deep study sessions |
+| [**sestara**](https://github.com/VittoriaLanzo/sestara) | An AI-powered learning compass — roadmaps, flashcards, quizzes and a study assistant in one place |
 
 ---
 
