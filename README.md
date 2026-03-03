@@ -6,7 +6,7 @@
 
 ---
 
-graphic designer. prompt engineer ( 4 years). communicator. generalist with an unreasonable amount of side projects.
+graphic designer &nbsp;·&nbsp; prompt engineer (4 years) &nbsp;·&nbsp; communicator &nbsp;·&nbsp; generalist with an unreasonable amount of side projects.
 
 ---
 
@@ -21,7 +21,11 @@ graphic designer. prompt engineer ( 4 years). communicator. generalist with an u
 
 ### stack
 
-`Python` &nbsp; `C`
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,c,latex,mysql" alt="Python, C, LaTeX, SQL" />
+
+</div>
 
 ---
 
