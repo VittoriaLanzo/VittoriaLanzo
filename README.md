@@ -6,7 +6,7 @@
 
 ---
 
-graphic designer. prompt engineer ( 4 years). communicator. generalist with an unreasonable amount of side projects.
+graphic designer &nbsp;·&nbsp; prompt engineer (4 years) &nbsp;·&nbsp; communicator &nbsp;·&nbsp; generalist with an unreasonable amount of side projects.
 
 ---
 
@@ -21,7 +21,14 @@ graphic designer. prompt engineer ( 4 years). communicator. generalist with an u
 
 ### stack
 
-`Python` &nbsp; `C`
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)&nbsp;
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)&nbsp;
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
 
 ---
 
