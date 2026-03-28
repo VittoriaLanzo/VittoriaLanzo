@@ -97,8 +97,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 ![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Llama](https://img.shields.io/badge/Llama-0467DF?style=flat-square&logo=meta&logoColor=white)
-![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square&logoColor=white)
-![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white)
+
 
 **Dev Environment**
 
