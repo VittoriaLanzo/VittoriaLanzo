@@ -147,7 +147,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![NeonWalk — 3D Portfolio](https://api.microlink.io/?url=https%3A%2F%2Fvittorialanzo.vercel.app&screenshot=true&meta=false&embed=screenshot.url&type=jpeg&viewport.width=1280&viewport.height=720)](https://vittorialanzo.vercel.app)
+[![NeonWalk — 3D Portfolio](./preview.gif)](https://vittorialanzo.vercel.app)
 
 *NeonWalk — 3D cyberpunk portfolio · [vittorialanzo.vercel.app](https://vittorialanzo.vercel.app)*
 
