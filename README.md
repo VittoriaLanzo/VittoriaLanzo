@@ -99,7 +99,10 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 **Multi-agent Systems**
 
-[![AI](https://skillicons.dev/icons?i=huggingface)](https://skillicons.dev)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)
+<img src="./assets/antigravity-badge.svg" height="20" alt="Antigravity"/>
 
 **Dev Environment**
 
@@ -119,9 +122,9 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)
+[![Profile Details](./profile-summary-card-output/tokyonight/0-profile-details.svg)](https://github.com/VittoriaLanzo)
 
-[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)&nbsp;&nbsp;[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)
+[![GitHub Stats](./profile-summary-card-output/tokyonight/3-stats.svg)](https://github.com/VittoriaLanzo)&nbsp;&nbsp;[![Top Languages](./profile-summary-card-output/tokyonight/1-repos-per-language.svg)](https://github.com/VittoriaLanzo)
 
 </div>
 
