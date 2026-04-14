@@ -119,6 +119,8 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
+[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)
+
 [![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)&nbsp;&nbsp;[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VittoriaLanzo&theme=tokyonight)](https://github.com/VittoriaLanzo)
 
 </div>
