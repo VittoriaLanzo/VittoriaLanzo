@@ -119,7 +119,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![Vittoria's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VittoriaLanzo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/VittoriaLanzo)
+[![trophy](https://github-profile-trophy.vercel.app/?username=VittoriaLanzo&theme=tokyonight&no-frame=true&column=6&margin-w=6)](https://github.com/VittoriaLanzo)
 
 </div>
 
@@ -129,9 +129,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![NeonWalk — 3D Portfolio](https://api.microlink.io/?url=https%3A%2F%2Fvittorialanzo.vercel.app&screenshot=true&meta=false&embed=screenshot.url&type=jpeg&viewport.width=1280&viewport.height=720)](https://vittorialanzo.vercel.app)
-
-*NeonWalk — 3D cyberpunk portfolio · [vittorialanzo.vercel.app](https://vittorialanzo.vercel.app)*
+[![NeonWalk — 3D Cyberpunk Portfolio](./neonwalk-banner.svg)](https://vittorialanzo.vercel.app)
 
 </div>
 
