@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="20" viewBox="0 0 110 20">
+  <defs>
+    <linearGradient id="ag" x1=".5" y1="1" x2=".5" y2="0">
+      <stop offset="0%"   stop-color="#5BB8FF"/>
+      <stop offset="33%"  stop-color="#7ED641"/>
+      <stop offset="66%"  stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#D63020"/>
+    </linearGradient>
+  </defs>
+  <rect width="110" height="20" rx="3" fill="#1a1a2e"/>
+  <!-- Antigravity arch logo scaled to 14x13 at position 3,3.5 -->
+  <g transform="translate(3,3.5) scale(0.144)">
+    <path d="M10,88C16,84,24,68,32,50C39,34,45,20,50,12C55,20,61,34,68,50C76,68,84,84,90,88L76,88C72,80,64,60,57,42C54,34,51,26,50,18C49,26,46,34,43,42C36,60,28,80,24,88Z" fill="url(#ag)"/>
+  </g>
+  <text x="21" y="14" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11" fill="#ffffff">Antigravity</text>
+</svg>
