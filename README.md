@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=3500&pause=1000&color=E040FB&background=00000000&center=true&vCenter=true&width=720&lines=Builder+%C2%B7+Prompt+Engineer+%C2%B7+Agentic+Systems+Designer;%F0%9F%A5%88+MEGA+Hackathon+2026+%E2%80%94+Silver+Medal;Multi-agent+systems+%40+the+intersection+of+code+%26+design)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=3500&pause=1000&color=E040FB&background=00000000&center=true&vCenter=true&width=720&lines=Builder+%C2%B7+Prompt+Engineer+%C2%B7+Agentic+Systems+Designer;%F0%9F%A5%88+MEGA+Hackathon+2026+%E2%80%94+Silver+Medal+(900%2B+participants);OSS+Contributor+%C2%B7+PrefectHQ+%C2%B7+sktime-mcp)](https://git.io/typing-svg)
 
-**Vittoria Lanzo** &nbsp;·&nbsp; Cesena, Italy &nbsp;·&nbsp; TEDxYouth Cesena — Communications
+**Vittoria Lanzo** &nbsp;·&nbsp; Cesena, Italy &nbsp;·&nbsp; OSS contributor
 
 </div>
 
@@ -14,7 +14,7 @@
 <tr>
 <td>
 
-**🥈 Silver Medal — MEGA Hackathon 2026**<br/>
+**🥈 Silver Medal — MEGA Hackathon 2026 (900+ participants)**<br/>
 Built [**Sestara**](https://sestara.lovable.app) — AI-powered study roadmap platform addressing SDGs 4 · 10 · 11 · 16
 
 </td>
@@ -22,6 +22,14 @@ Built [**Sestara**](https://sestara.lovable.app) — AI-powered study roadmap pl
 
 **🔀 OSS Contribution — PrefectHQ/prefect [#21004](https://github.com/PrefectHQ/prefect/pull/21004)**<br/>
 Merged: `--no-create-pool-if-not-found` flag for `prefect worker start`, orchestrated via multi-agent workflow
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**🔧 OSS Contributions (in progress) — sktime/sktime-mcp [#126](https://github.com/sktime/sktime-mcp/pull/126) · [#124](https://github.com/sktime/sktime-mcp/pull/124)**<br/>
+5 bugs patched in `RegistryInterface` (2 race conditions, 3 correctness errors) · double-checked locking · 100% branch coverage · 7.8× perf improvement (239ms → 31ms)
 
 </td>
 </tr>
@@ -57,7 +65,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 ![Wolfram](https://img.shields.io/badge/Wolfram_Alpha_LLM-DD1100?style=flat-square&logo=wolframalpha&logoColor=white)
 
-**SDGs:** 4 · 10 · 11 · 16 &nbsp; **🥈 MEGA Hackathon 2026**
+**SDGs:** 4 · 10 · 11 · 16 &nbsp; **🥈 MEGA Hackathon 2026 (900+ participants)**
 
 </td>
 <td width="50%" valign="top">
@@ -92,24 +100,14 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 **Multi-agent Systems**
 
 [![AI](https://skillicons.dev/icons?i=huggingface)](https://skillicons.dev)
-![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![Llama](https://img.shields.io/badge/Llama-0467DF?style=flat-square&logo=meta&logoColor=white)
-
 
 **Dev Environment**
 
-[![Dev](https://skillicons.dev/icons?i=vscode,debian,docker,raspberrypi)](https://skillicons.dev)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Parrot OS](https://img.shields.io/badge/Parrot_OS-15E0ED?style=flat-square&logo=linux&logoColor=black)
+[![Dev](https://skillicons.dev/icons?i=vscode,debian,docker,raspberrypi,git)](https://skillicons.dev)
 
 **Creative**
 
 [![Creative](https://skillicons.dev/icons?i=figma,canva)](https://skillicons.dev)
-![Remotion](https://img.shields.io/badge/Remotion-000000?style=flat-square&logo=remotion&logoColor=white)
-![Lovable](https://img.shields.io/badge/Lovable-FF4D6D?style=flat-square&logoColor=white)
 
 **Infrastructure**
 
@@ -119,27 +117,11 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 ## 📊 GitHub Stats
 
-<table align="center">
-<tr>
-<td>
+<div align="center">
 
-[![Vittoria's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VittoriaLanzo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/VittoriaLanzo)
+[![Vittoria's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VittoriaLanzo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github)](https://github.com/VittoriaLanzo)
 
-</td>
-<td>
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VittoriaLanzo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css)](https://github.com/VittoriaLanzo)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=VittoriaLanzo&theme=tokyonight&hide_border=true)](https://github.com/VittoriaLanzo)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -147,7 +129,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![NeonWalk — 3D Portfolio](./preview.gif)](https://vittorialanzo.vercel.app)
+[![NeonWalk — 3D Portfolio](https://api.microlink.io/?url=https%3A%2F%2Fvittorialanzo.vercel.app&screenshot=true&meta=false&embed=screenshot.url&type=jpeg&viewport.width=1280&viewport.height=720)](https://vittorialanzo.vercel.app)
 
 *NeonWalk — 3D cyberpunk portfolio · [vittorialanzo.vercel.app](https://vittorialanzo.vercel.app)*
 
