@@ -119,7 +119,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 
 <div align="center">
 
-[![Vittoria's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VittoriaLanzo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github)](https://github.com/VittoriaLanzo)
+[![Vittoria's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VittoriaLanzo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/VittoriaLanzo)
 
 </div>
 
