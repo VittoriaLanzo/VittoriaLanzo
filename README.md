@@ -102,7 +102,7 @@ AI-powered study roadmap platform. Generates personalized learning paths, flashc
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 ![OpenAI Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)
-<img src="./assets/antigravity-logo.png" height="20" alt="Antigravity"/>
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/antigravity-logo.png" height="20" alt="Antigravity"/>
 
 **Dev Environment**
 
