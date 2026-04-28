@@ -8,7 +8,7 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 ---
 
-## ![](https://img.shields.io/badge/-merged-8957e5?logo=github&logoColor=white) Merged OSS
+## <img src="https://api.iconify.design/octicon:git-merge-16.svg?color=%238957e5" width="20" height="20"/> Merged OSS
 
 [![](https://img.shields.io/github/pulls/detail/state/PrefectHQ/prefect/21707)](https://github.com/PrefectHQ/prefect/pull/21707) **PrefectHQ/prefect · #21707** — `count_flow_runs` re-evaluated one correlated EXISTS subquery per filter per candidate row: O(k · N · log M) → O(N + ΣMᵢ) for both dialects.
 > Explicit JOINs (N:1 foreign keys only, task runs excluded) · SQLite: 51–66× at 100k rows · PostgreSQL: up to 18× at 100k rows · 21 regression tests
@@ -18,7 +18,7 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 ---
 
-## ![](https://img.shields.io/badge/-open-238636?logo=github&logoColor=white) In Review
+## <img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%23238636" width="20" height="20"/> In Review
 
 [![](https://img.shields.io/github/pulls/detail/state/sktime/sktime-mcp/126)](https://github.com/sktime/sktime-mcp/pull/126) [![](https://img.shields.io/github/pulls/detail/state/sktime/sktime-mcp/124)](https://github.com/sktime/sktime-mcp/pull/124) **sktime/sktime-mcp · #126 + #124** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
