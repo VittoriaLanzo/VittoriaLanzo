@@ -20,7 +20,7 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="20" height="20" align="absmiddle"/> In Review</h2>
 
-<a href="https://github.com/sktime/sktime-mcp/pull/126"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/></a> <a href="https://github.com/sktime/sktime-mcp/pull/124"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/></a> **sktime/sktime-mcp · #126 + #124** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
 
 ---
