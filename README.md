@@ -10,10 +10,10 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="20" height="20" align="absmiddle"/> Merged OSS</h2>
 
-<a href="https://github.com/PrefectHQ/prefect/pull/21707"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21707](https://github.com/PrefectHQ/prefect/pull/21707) — `count_flow_runs` re-evaluated one correlated EXISTS subquery per filter per candidate row: O(k · N · log M) → O(N + ΣMᵢ) for both dialects.
+<a href="https://github.com/PrefectHQ/prefect/pull/21707"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21707](https://github.com/PrefectHQ/prefect/pull/21707)** — `count_flow_runs` re-evaluated one correlated EXISTS subquery per filter per candidate row: O(k · N · log M) → O(N + ΣMᵢ) for both dialects.
 > Explicit JOINs (N:1 foreign keys only, task runs excluded) · SQLite: 51–66× at 100k rows · PostgreSQL: up to 18× at 100k rows · 21 regression tests
 
-<a href="https://github.com/PrefectHQ/prefect/pull/21004"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21004](https://github.com/PrefectHQ/prefect/pull/21004) — `prefect worker start` had no way to skip pool creation; operators hitting pre-existing pools got silent creation side-effects.
+<a href="https://github.com/PrefectHQ/prefect/pull/21004"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21004](https://github.com/PrefectHQ/prefect/pull/21004)** — `prefect worker start` had no way to skip pool creation; operators hitting pre-existing pools got silent creation side-effects.
 > Fix introduced `--no-create-pool-if-not-found` flag, eliminating the side-effect entirely · orchestrated end-to-end via multi-agent workflow
 
 ---
