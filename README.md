@@ -37,7 +37,7 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 ## 🥈 Hackathon
 
-**MEGA Hackathon 2026 — Silver Medal (900+ participants)**
+**MEGA Hackathon 2026 — Silver Medal (900+ participants)** <a href="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" title="View Certificate"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" width="18" height="18" align="absmiddle" alt="Certificate"/></a>
 
 Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap platform (personalized paths, flashcards, quizzes, study assistant) addressing SDGs 4 · 10 · 11 · 16. Stack: React · TypeScript · Vite · Supabase · Google Gemini · shadcn/ui · Framer Motion · Wolfram Alpha LLM.
 
