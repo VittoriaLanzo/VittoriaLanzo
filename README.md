@@ -20,13 +20,13 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="20" height="20" align="absmiddle"/> In Review</h2>
 
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) 
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
 
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **SWE-agent/mini-swe-agent · [#821](https://github.com/SWE-agent/mini-swe-agent/pull/821)** — `FormatError` discarded the raw model response on parse failure; trajectory logs showed the error marker but nothing to inspect
 > `try/except FormatError` in all 7 model `query()` wrappers · `repr()` fallback when `model_dump()` fails · 16 regression tests
 
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **fastapi/fastapi · [#15476](https://github.com/fastapi/fastapi/pull/15476)** — `jsonable_encoder` built `set(obj.keys())` unconditionally on every dict branch, causing pure overhead when `include` and `exclude` filters were `None`  → open, awaiting review
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **fastapi/fastapi · [#15476](https://github.com/fastapi/fastapi/pull/15476)** — `jsonable_encoder` built `set(obj.keys())` unconditionally on every dict branch, causing pure overhead when `include` and `exclude` filters were `None`  
 > Skipped set allocation and membership tests when filters are absent · 8.2% wall-time reduction on small dicts (5.37 µs → 4.93 µs) · 6.0% reduction on large nested dicts · 7 regression tests added
 --- 
 
