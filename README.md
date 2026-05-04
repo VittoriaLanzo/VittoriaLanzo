@@ -13,6 +13,9 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 <a href="https://github.com/PrefectHQ/prefect/pull/21707"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21707](https://github.com/PrefectHQ/prefect/pull/21707)** — `count_flow_runs` re-evaluated one correlated EXISTS subquery per filter per candidate row: O(k · N · log M) → O(N + ΣMᵢ) for both dialects.
 > Explicit JOINs (N:1 foreign keys only, task runs excluded) · SQLite: 51–66× at 100k rows · PostgreSQL: up to 18× at 100k rows · 21 regression tests
 
+<a href="https://github.com/PrefectHQ/prefect/pull/21754"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21754](https://github.com/PrefectHQ/prefect/pull/21754)** — `read_block_schemas` performed a linear `next()` scan of flat results for every nested reference lookup: $O(N^2)$ → $O(N)$ for bulk reads.
+> Implemented a `checksum_index` dictionary with first-wins semantics to achieve $O(1)$ lookups · ~125× speedup at 1,000 schemas (55.9ms → 0.39ms p50) · 12 new tests covering index threading and collision parity
+
 <a href="https://github.com/PrefectHQ/prefect/pull/21004"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21004](https://github.com/PrefectHQ/prefect/pull/21004)** — `prefect worker start` had no way to skip pool creation; operators hitting pre-existing pools got silent creation side-effects.
 > Fix introduced `--no-create-pool-if-not-found` flag, eliminating the side-effect entirely · orchestrated end-to-end via multi-agent workflow
 
