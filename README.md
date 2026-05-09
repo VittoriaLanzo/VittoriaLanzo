@@ -7,6 +7,12 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 </div>
 
 ---
+## 🔬 Research
+
+**[windowed-minority-guidance](https://github.com/VittoriaLanzo/windowed-minority-guidance)** — Accepted to EEML 2026 
+> Tested whether minority guidance (Um,Lee & Ye , ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
+
+---
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="20" height="20" align="absmiddle"/> Merged OSS</h2>
 
@@ -33,12 +39,6 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 > Skipped set allocation and membership tests when filters are absent · 8.2% wall-time reduction on small dicts (5.37 µs → 4.93 µs) · 6.0% reduction on large nested dicts · 7 regression tests added
 --- 
 
-## 🔬 Research
-
-**[windowed-minority-guidance](https://github.com/VittoriaLanzo/windowed-minority-guidance)** — Submitted to EEML 2026 · admitted (independent)
-> Tested whether minority guidance (Um,Lee & Ye , ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
-
----
 
 ## 🥈 Hackathon
 
