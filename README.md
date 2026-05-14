@@ -78,3 +78,11 @@ Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap pl
 17 · Cesena, Italy · [vittoria3103.123@gmail.com](mailto:vittoria3103.123@gmail.com) · [vittorialanzo.vercel.app](https://vittorialanzo.vercel.app)
 
 </div>
+
+---
+
+<div align="center">
+<a href="https://vittorialanzo.vercel.app">
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/neonwalk-banner.svg" alt="NeonWalk Portfolio" width="800"/>
+</a>
+</div>
