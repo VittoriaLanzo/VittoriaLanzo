@@ -29,6 +29,9 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="20" height="20" align="absmiddle"/> In Review</h2>
 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **Lightricks/LTX-2 · [#215](https://github.com/Lightricks/LTX-2/pull/215)** — `tiled_encode_video` invoked the VAE encoder sequentially per spatial tile: O(Tiles) → O(Shape Groups) via mini-batching.
+> Implemented two-phase collect/batch logic with shape-grouping for edge tiles · Hoisted loop-invariant linspace allocations · 3.75× to 15× reduction in VAE calls (1920p to 4K) · 12 parity and regression tests
+
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) 
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
 
