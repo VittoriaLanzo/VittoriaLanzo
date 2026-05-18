@@ -29,6 +29,10 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="20" height="20" align="absmiddle"/> In Review</h2>
 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **NVIDIA/cutlass · [#3242](https://github.com/NVIDIA/cutlass/pull/3242)** — `fast_math.h` had PTX-accelerated specializations for `half_t` but none for `bfloat16_t`; every BF16 activation fell through to a 3-instruction float round-trip.
+> Added `fast_exp` and `fast_tanh` scalar + array specializations for `bfloat16_t` · `tanh.approx.bf16x2` PTX on SM90+/CUDA 12+ · `h2exp(__nv_bfloat162)` on SM80+/CUDA 11+ · **6x** instruction reduction per element (array path, Hopper/Blackwell) · 11 test cases
+>
+> 
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **Lightricks/LTX-2 · [#215](https://github.com/Lightricks/LTX-2/pull/215)** — `tiled_encode_video` invoked the VAE encoder sequentially per spatial tile: O(Tiles) → O(Shape Groups) via mini-batching.
 > Implemented two-phase collect/batch logic with shape-grouping for edge tiles · Hoisted loop-invariant linspace allocations · 3.75× to 15× reduction in VAE calls (1920p to 4K) · 12 parity and regression tests
 
