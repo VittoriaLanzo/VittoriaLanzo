@@ -9,8 +9,8 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 ---
 ## 🔬 Research
 
-**[windowed-minority-guidance](https://github.com/VittoriaLanzo/windowed-minority-guidance)** — Accepted to EEML 2026 
-> Tested whether minority guidance (Um,Lee & Ye , ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
+**[windowed-minority-guidance](https://github.com/VittoriaLanzo/windowed-minority-guidance)** — Accepted at EEML 2026 (independent)
+> Tested whether minority guidance (Um, Lee & Ye, ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
 
 ---
 
@@ -36,7 +36,7 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **Lightricks/LTX-2 · [#215](https://github.com/Lightricks/LTX-2/pull/215)** — `tiled_encode_video` invoked the VAE encoder sequentially per spatial tile: O(Tiles) → O(Shape Groups) via mini-batching.
 > Implemented two-phase collect/batch logic with shape-grouping for edge tiles · Hoisted loop-invariant linspace allocations · 3.75× to 15× reduction in VAE calls (1920p to 4K) · 12 parity and regression tests
 
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
 
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **SWE-agent/mini-swe-agent · [#821](https://github.com/SWE-agent/mini-swe-agent/pull/821)** — `FormatError` discarded the raw model response on parse failure; trajectory logs showed the error marker but nothing to inspect
