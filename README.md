@@ -22,6 +22,9 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 <a href="https://github.com/PrefectHQ/prefect/pull/21754"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21754](https://github.com/PrefectHQ/prefect/pull/21754)** — `read_block_schemas` performed a linear `next()` scan of flat results for every nested reference lookup: O(N<sup>2</sup>) → O(N). for bulk reads.
 > Implemented a `checksum_index` dictionary with first-wins semantics to achieve O(1) lookups · ~125× speedup at 1,000 schemas (55.9ms → 0.39ms p50) · 12 new tests covering index threading and collision parity
 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a>**SWE-agent/mini-swe-agent · [#821](https://github.com/SWE-agent/mini-swe-agent/pull/821)** — `FormatError` discarded the raw model response on parse failure; trajectory logs showed the error marker but nothing to inspect
+> `try/except FormatError` in all 7 model `query()` wrappers · `repr()` fallback when `model_dump()` fails · 16 regression tests
+
 <a href="https://github.com/PrefectHQ/prefect/pull/21004"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21004](https://github.com/PrefectHQ/prefect/pull/21004)** — `prefect worker start` had no way to skip pool creation; operators hitting pre-existing pools got silent creation side-effects.
 > Fix introduced `--no-create-pool-if-not-found` flag, eliminating the side-effect entirely · orchestrated end-to-end via multi-agent workflow
 
@@ -38,9 +41,6 @@ Agentic Systems Designer · OSS Contributor · ML Researcher
 
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **sktime/sktime-mcp · [#126](https://github.com/sktime/sktime-mcp/pull/126) + [#124](https://github.com/sktime/sktime-mcp/pull/124)** — 5 bugs in `RegistryInterface` (2 race conditions, 3 correctness errors) → open, awaiting review
 > Double-checked locking, 100% branch coverage, 7.8× throughput improvement (239ms → 31ms, cold-cache registry lookup)
-
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **SWE-agent/mini-swe-agent · [#821](https://github.com/SWE-agent/mini-swe-agent/pull/821)** — `FormatError` discarded the raw model response on parse failure; trajectory logs showed the error marker but nothing to inspect
-> `try/except FormatError` in all 7 model `query()` wrappers · `repr()` fallback when `model_dump()` fails · 16 regression tests
 
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **fastapi/fastapi · [#15476](https://github.com/fastapi/fastapi/pull/15476)** — `jsonable_encoder` built `set(obj.keys())` unconditionally on every dict branch, causing pure overhead when `include` and `exclude` filters were `None`  
 > Skipped set allocation and membership tests when filters are absent · 8.2% wall-time reduction on small dicts (5.37 µs → 4.93 µs) · 6.0% reduction on large nested dicts · 7 regression tests added
