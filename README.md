@@ -2,7 +2,7 @@
 
 **Vittoria Lanzo**
 
-Agentic Systems Designer · OSS Contributor · ML Researcher
+ML researcher / engineer & OSS contributor 
 
 </div>
 
