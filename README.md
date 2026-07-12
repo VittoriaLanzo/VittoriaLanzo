@@ -32,6 +32,9 @@ ML researcher / engineer & OSS contributor
 
 <h2><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="20" height="20" align="absmiddle"/> In Review</h2>
 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **NousResearch/hermes-agent · [#62082](https://github.com/NousResearch/hermes-agent/pull/62082)** — the curator's LLM review fork built its `AIAgent` without `enabled_toolsets`, shipping the full default catalog plus `lcm_*` schema on a loop whose prompt names four tools.
+> Restricted the fork to `enabled_toolsets=["skills", "terminal"]` · behavior-neutral, mirrors the background-review fork · **21.5 KB → 6.6 KB** advertised tool schema (69%, ~3.7K tokens) on every call, 50-100 calls per pass · 2 tests, 72 green
+
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-pull-request-green.svg" width="16" height="16" align="absmiddle"/> **NVIDIA/cutlass · [#3242](https://github.com/NVIDIA/cutlass/pull/3242)** — `fast_math.h` had PTX-accelerated specializations for `half_t` but none for `bfloat16_t`; every BF16 activation fell through to a 3-instruction float round-trip.
 > Added `fast_exp` and `fast_tanh` scalar + array specializations for `bfloat16_t` · `tanh.approx.bf16x2` PTX on SM90+/CUDA 12+ · `h2exp(__nv_bfloat162)` on SM80+/CUDA 11+ · **6x** instruction reduction per element (array path, Hopper/Blackwell) · 11 test cases
 >
