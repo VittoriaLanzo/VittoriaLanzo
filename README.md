@@ -85,7 +85,7 @@ Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap pl
 
 <div align="center">
 
-17 · Cesena, Italy · [vittoria3103.123@gmail.com](mailto:vittoria3103.123@gmail.com) · [vittorialanzo.vercel.app](https://vittorialanzo.vercel.app)
+Cesena, Italy · [vittoria3103.123@gmail.com](mailto:vittoria3103.123@gmail.com) 
 
 </div>
 
