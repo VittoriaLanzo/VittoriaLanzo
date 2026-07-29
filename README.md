@@ -9,7 +9,7 @@ ML researcher / engineer & OSS contributor
 ---
 ## 🔬 Research
 
-**[windowed-minority-guidance]([https://github.com/VittoriaLanzo/windowed-minority-guidance](https://github.com/VittoriaLanzo/Windowed-Minority-Guidance-Timestep-Localized-Effects-in-Diffusion-Denoising-Across-a-Six-Scale]))** — Selected for EEML 2026 
+**[windowed-minority-guidance]([https://github.com/VittoriaLanzo/windowed-minority-guidance](https://github.com/VittoriaLanzo/Windowed-Minority-Guidance-Timestep-Localized-Effects-in-Diffusion-Denoising-Across-a-Six-Scale)** — Selected for EEML 2026 
 > Tested whether minority guidance (Um, Lee & Ye, ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
 
 ---
