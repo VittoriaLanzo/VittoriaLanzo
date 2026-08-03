@@ -22,6 +22,9 @@ ML researcher / engineer & OSS contributor
 <a href="https://github.com/PrefectHQ/prefect/pull/21754"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a> **PrefectHQ/prefect · [#21754](https://github.com/PrefectHQ/prefect/pull/21754)** — `read_block_schemas` performed a linear `next()` scan of flat results for every nested reference lookup: O(N<sup>2</sup>) → O(N). for bulk reads.
 > Implemented a `checksum_index` dictionary with first-wins semantics to achieve O(1) lookups · ~125× speedup at 1,000 schemas (55.9ms → 0.39ms p50) · 12 new tests covering index threading and collision parity
 
+<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/> **NousResearch/hermes-agent · [#62082](https://github.com/NousResearch/hermes-agent/pull/62082)** — the curator's LLM review fork built its `AIAgent` without `enabled_toolsets`, shipping the full default catalog plus `lcm_*` schema on a loop whose prompt names four tools.
+> Restricted the fork to `enabled_toolsets=["skills", "terminal"]` · behavior-neutral, mirrors the background-review fork · **21.5 KB → 6.6 KB** advertised tool schema (69%, ~3.7K tokens) on every call, 50-100 calls per pass 
+
 <img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/git-merge-purple.svg" width="16" height="16" align="absmiddle"/></a>**SWE-agent/mini-swe-agent · [#821](https://github.com/SWE-agent/mini-swe-agent/pull/821)** — `FormatError` discarded the raw model response on parse failure; trajectory logs showed the error marker but nothing to inspect
 > `try/except FormatError` in all 7 model `query()` wrappers · `repr()` fallback when `model_dump()` fails · 16 regression tests
 
