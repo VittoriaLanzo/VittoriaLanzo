@@ -56,45 +56,10 @@ CTO of Ohmatic / ML researcher / OSS contributor
 
 **MEGA Hackathon 2026 — Silver Medal (900+ participants)** <a href="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" title="View Certificate"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" width="18" height="18" align="absmiddle" alt="Certificate"/></a>
 
-Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap platform (personalized paths, flashcards, quizzes, study assistant) addressing SDGs 4 · 10 · 11 · 16. Stack: React · TypeScript · Vite · Supabase · Google Gemini · shadcn/ui · Framer Motion · Wolfram Alpha LLM.
-
----
-
-## 🛠 Tech Stack
-
-**Languages**
-
-[![Languages](https://skillicons.dev/icons?i=python,c,mysql,latex,bash)](https://skillicons.dev)
-
-**Multi-agent Systems**
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/antigravity-logo.png" height="20" alt="Antigravity"/>
-
-**Dev Environment**
-
-[![Dev](https://skillicons.dev/icons?i=vscode,debian,docker,raspberrypi,git)](https://skillicons.dev)
-
-**Creative**
-
-[![Creative](https://skillicons.dev/icons?i=figma,canva)](https://skillicons.dev)
-
-**Infrastructure**
-
-[![Infra](https://skillicons.dev/icons?i=githubactions,supabase)](https://skillicons.dev)
+Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap platform (personalized paths, flashcards, quizzes, study assistant) addressing SDGs 4 · 10 · 11 · 16. Stack: React · TypeScript · Vite · Supabase · Google Gemini · shadcn/ui · Framer Motion · Wolfram Alpha LLM.
 
 ---
 
 <div align="center">
 
-Cesena, Italy · [vittoria3103.123@gmail.com](mailto:vittoria3103.123@gmail.com) 
-
-</div>
-
----
-
-<div align="center">
-<a href="https://vittorialanzo.vercel.app">
-<img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/neonwalk-banner.svg" alt="NeonWalk Portfolio" width="800"/>
-</a>
-</div>
+Milan, Italy · [vittoria3103.123@gmail.com](mailto:vittoria3103.123@gmail.com) 
