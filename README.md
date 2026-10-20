@@ -2,14 +2,14 @@
 
 **Vittoria Lanzo**
 
-CTO of Ohmatic / ML researcher / OSS contributor 
+ ML researcher / Software Engineer
 
 </div>
 
 ---
 ## 🔬 Research
 
-**[windowed-minority-guidance](https://github.com/VittoriaLanzo/Windowed-Minority-Guidance-Timestep-Localized-Effects-in-Diffusion-Denoising-Across-a-Six-Scale)** — Best Poster Award, EEML 2026 <a href="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/eeml-best-poster-cert.jpg" title="View Certificate"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/eeml-best-poster-cert.jpg" width="18" height="18" align="absmiddle" alt="Certificate"/></a>
+**[windowed-minority-guidance](https://github.com/VittoriaLanzo/Windowed-Minority-Guidance-Timestep-Localized-Effects-in-Diffusion-Denoising-Across-a-Six-Scale)** — Best Poster Award, EEML 2026, Dynafront NeurIPS 2026 workshop <a href="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/eeml-best-poster-cert.jpg" title="View Certificate"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/eeml-best-poster-cert.jpg" width="18" height="18" align="absmiddle" alt="Certificate"/></a>
 > Tested whether minority guidance (Um, Lee & Ye, ICLR 2024) produces timestep-localized effects in diffusion denoising. Split the chain into 3 equal windows; mid-phase guidance recovered 45.6% of full-chain loss reduction across 250 iterations / 50 seeds on LSUN Bedroom. Wilcoxon signed-rank p < 0.001 for mid, early, and full guidance vs. baseline.
 
 ---
@@ -56,7 +56,8 @@ CTO of Ohmatic / ML researcher / OSS contributor
 
 **MEGA Hackathon 2026 — Silver Medal (900+ participants)** <a href="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" title="View Certificate"><img src="https://raw.githubusercontent.com/VittoriaLanzo/VittoriaLanzo/main/assets/mega-hackathon-cert.png" width="18" height="18" align="absmiddle" alt="Certificate"/></a>
 
-Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap platform (personalized paths, flashcards, quizzes, study assistant) addressing SDGs 4 · 10 · 11 · 16. Stack: React · TypeScript · Vite · Supabase · Google Gemini · shadcn/ui · Framer Motion · Wolfram Alpha LLM.
+Built [**Sestara**](https://sestara.lovable.app) in-contest: AI study roadmap platform (personalized paths, flashcards, quizzes, study assistant) addressing SDGs 4 · 10 · 11 · 16. Stack: React · TypeScript · Vite · Supabase · Google Gemini · shadcn/ui · Framer Motion · Wolfram Alpha LLM.
+
 
 ---
 
